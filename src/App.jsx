@@ -1,15 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import ListaCard from "./components/ListVideos";
 
 function App() {
-
-  return (
-    <>
-        <h1>
-          hola mundo
-        </h1>
-    </>
-  )
+  return <ListaCard />;
 }
 
-export default App
+export default App;
