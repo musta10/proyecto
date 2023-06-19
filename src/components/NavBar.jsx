@@ -4,11 +4,9 @@ import logo from '../assets/milogo.png'
 function NavBar() {
   return (
     <header className="header">
-    <div className="containt-header">
-    <p className='title-header'>WelcomeCanarias</p>
-    <div className="logo-header">
+    <div className="contain-header">
     <img className="logo" alt='logoimg' src={logo}/>
-    </div>
+    <h4 className='title-header'>WelcomeCanarias</h4>
     </div>
     </header>
   )

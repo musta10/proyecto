@@ -1,8 +1,22 @@
 .title-header{
     color: #024D71;
 }
-.logo-header{
-    border: 1px solid black;
-    width: 150px;
+.header{
     height: 150px;
+    margin: 0px auto;
+}
+.contain-header{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: block;
+    text-align: center;
+    width: 40px;
+    margin: 0px auto;
+}
+.title-header{
+    text-align: center;
 }
