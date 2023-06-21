@@ -3,8 +3,7 @@ import React from 'react'
 function CardVideos() {
   return (
     <div>
-        <h2>los videos Card</h2>
-        <img src='' style={{}} />
+        <h1>las Card</h1>
     </div>
   )
 }
