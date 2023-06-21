@@ -1,13 +1,15 @@
 import { useState } from "react";
 import "./App.css";
-import ListaCard from "./components/ListVideos";
+import ListaVideos from "./components/ListVideos";
 import Card from "./components/CardVideos"
+import Header from "./components/NavBar";
 
 function App() {
   return (
     <>
-    <ListaCard />
-    <Card />
+    <Header />
+   {/*  <ListaVideos />
+    <Card /> */}
     </>
   )
 
