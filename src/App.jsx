@@ -1,15 +1,18 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import ListaVideos from "./components/ListVideos";
+import Card from "./components/CardVideos"
+import Header from "./components/NavBar";
 
 function App() {
-
   return (
     <>
-        <h1>
-          hola mundo
-        </h1>
+    <Header />
+   {/*  <ListaVideos />
+    <Card /> */}
     </>
   )
+
 }
 
-export default App
+export default App;
